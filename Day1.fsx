@@ -5,6 +5,7 @@ let input =
   |> Array.toList
   |> List.map int
 
+// Part 1
 let rec f1 acc =
   function
   | []
@@ -17,6 +18,7 @@ let rec f1 acc =
 
     f1 acc xs
 
+// Part 2
 let rec f2 acc =
   function
   | []
